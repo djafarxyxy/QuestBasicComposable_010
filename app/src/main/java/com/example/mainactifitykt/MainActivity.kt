@@ -52,4 +52,9 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+@Preview(showBackground = true )
+@Composable
+fun BasicCompose(farhan: Modifier = Modifier) {
+
+}
 

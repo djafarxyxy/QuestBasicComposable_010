@@ -97,3 +97,13 @@ fun BasicCompose(farhan: Modifier = Modifier) {
             fontSize =28.sp,
             fontWeight = FontWeight.Bold,
             color = Color.Black)
+        Text(text = "20220140031",
+            fontSize = 20.sp,
+            style = TextStyle(
+                shadow = Shadow(
+                    color = Color.Blue, // Menambahkan warna hijau untuk bayangan
+                    offset = Offset(2f, 8f),  // Mengatur offset shadow
+                    blurRadius = 8f  // buram bayangan
+                )
+            )
+        )

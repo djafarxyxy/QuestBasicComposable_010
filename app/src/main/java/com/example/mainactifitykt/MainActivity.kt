@@ -64,4 +64,6 @@ fun BasicCompose(farhan: Modifier = Modifier) {
         Text(text = "Login",
             fontSize = 30.sp,
             fontWeight = FontWeight.Bold,
+            style = TextStyle(
 
+            )

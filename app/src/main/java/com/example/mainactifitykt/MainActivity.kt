@@ -107,3 +107,41 @@ fun BasicCompose(farhan: Modifier = Modifier) {
                 )
             )
         )
+        Box(
+            modifier = farhan
+                .size(500.dp),
+            contentAlignment = Alignment.Center  // Mengatur konten di tengah
+        ){
+
+            Box(
+                modifier = farhan
+                    .size(480.dp)
+                    .clip(CircleShape)
+                    .background(Color.Black.copy(alpha = 0.6f))
+            )
+            Image(
+                painter = painterResource(id = R.drawable.alan),
+                contentDescription = null,
+                modifier = farhan
+                    .size(480.dp)
+                    .clip(RectangleShape),
+                contentScale = ContentScale.Crop
+            )
+        }
+    }
+}
+@Composable
+fun Greeting(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name!",
+        modifier = modifier
+    )
+}
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    MainActifityktTheme {
+        Greeting("Android")
+    }
+}

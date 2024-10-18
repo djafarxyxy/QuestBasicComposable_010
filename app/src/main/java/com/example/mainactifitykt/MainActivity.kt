@@ -83,3 +83,5 @@ fun BasicCompose(farhan: Modifier = Modifier) {
                 .padding(top = 10.dp)
         )
         Text(text = "Nama :",
+            fontSize = 18.sp,
+            fontWeight = FontWeight.SemiBold,

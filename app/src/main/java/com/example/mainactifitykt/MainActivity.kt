@@ -93,3 +93,7 @@ fun BasicCompose(farhan: Modifier = Modifier) {
                 )
             )
         )
+        Text(text = "FARHAN NAIM DJAFAR.",
+            fontSize =28.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black)

@@ -75,3 +75,5 @@ fun BasicCompose(farhan: Modifier = Modifier) {
         Text(text = "ini halaman Login",
             fontSize = 22.sp,
             fontStyle = FontStyle.Normal,
+            fontWeight = FontWeight.SemiBold,
+            color = Color.Black)

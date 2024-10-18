@@ -85,4 +85,11 @@ fun BasicCompose(farhan: Modifier = Modifier) {
         Text(text = "Nama :",
             fontSize = 18.sp,
             fontWeight = FontWeight.SemiBold,
-            style = TextStyle
+            style = TextStyle(
+                shadow = Shadow(
+                    color = Color.Blue, // Menambahkan warna hijau untuk bayangan
+                    offset = Offset(2f, 8f),  // Mengatur offset shadow
+                    blurRadius = 8f  // Mengatur seberapa buram bayangan
+                )
+            )
+        )

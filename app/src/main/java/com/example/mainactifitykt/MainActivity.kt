@@ -61,4 +61,7 @@ fun BasicCompose(farhan: Modifier = Modifier) {
             .padding(10.dp),
         verticalArrangement = Arrangement.spacedBy(6.dp),
         horizontalAlignment = Alignment.CenterHorizontally){
+        Text(text = "Login",
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold,
 

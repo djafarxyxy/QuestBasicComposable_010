@@ -55,6 +55,10 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true )
 @Composable
 fun BasicCompose(farhan: Modifier = Modifier) {
-
-}
+    Column(
+        modifier = farhan
+            .fillMaxSize()
+            .padding(10.dp),
+        verticalArrangement = Arrangement.spacedBy(6.dp),
+        horizontalAlignment = Alignment.CenterHorizontally){
 

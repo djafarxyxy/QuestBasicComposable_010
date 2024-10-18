@@ -85,3 +85,4 @@ fun BasicCompose(farhan: Modifier = Modifier) {
         Text(text = "Nama :",
             fontSize = 18.sp,
             fontWeight = FontWeight.SemiBold,
+            style = TextStyle

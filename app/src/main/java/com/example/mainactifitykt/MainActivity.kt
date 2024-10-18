@@ -82,3 +82,4 @@ fun BasicCompose(farhan: Modifier = Modifier) {
             modifier = farhan.size(150.dp)
                 .padding(top = 10.dp)
         )
+        Text(text = "Nama :",

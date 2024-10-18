@@ -77,3 +77,8 @@ fun BasicCompose(farhan: Modifier = Modifier) {
             fontStyle = FontStyle.Normal,
             fontWeight = FontWeight.SemiBold,
             color = Color.Black)
+        Image(painter = painterResource(id = R.drawable.umyy),
+            contentDescription = null,
+            modifier = farhan.size(150.dp)
+                .padding(top = 10.dp)
+        )

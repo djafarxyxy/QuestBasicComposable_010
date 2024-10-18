@@ -72,4 +72,4 @@ fun BasicCompose(farhan: Modifier = Modifier) {
                 )
             )
         )
-
+        Text(text = "ini halaman Login"
